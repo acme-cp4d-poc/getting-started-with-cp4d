@@ -1,5 +1,9 @@
 # Getting Started with CP4D
 
+1. Create a new CP4D Project and new Juypter Notebook
+1. Create a new CP4D Project and import an existing Juypter Notebook
+1. Create a CP4D Project and import from an existing git repo
+
 
 <img src="images/cp4d-homepage.png" width="600">
 
