@@ -21,7 +21,7 @@
 
 From "Choose project options", ensure the checkbox of "Integrate this project with Git" is checked
 
-Note: Assumme there is empty github repo has been created. If not, please review this link to create a Git repo with ssh enable
+Note: Assume there is empty github repo has been created. If not, please review this link to create a Git repo with ssh enable
 
 ![Project](images/cp4d-new-project4.png)
 
@@ -37,7 +37,7 @@ Click Pull and Push, this action will push the new project and all the assets an
 
 > Take a quick view on Git
 
-The new assets folder created by Watson were checked in
+The new assets, and assetstypes folders created by Watson were checked in
 
 ![Project](images/project-sync-with-watson.png)
 
@@ -55,7 +55,7 @@ By one of these 3 options (Blank, From File, or From URL)
 
 > Push new Notebook to repo
 
-With project opening on Watson, on Asset tab, check the Notebook, then select Push (on top bar)
+With project opening on Watson, on Assets tab, check the Notebook you created, then select Push (on top bar)
 
 ![Project](images/project-sync-with-github.png)
 
