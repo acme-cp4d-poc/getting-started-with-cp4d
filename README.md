@@ -21,7 +21,7 @@
 
 From "Choose project options", ensure the checkbox of "Integrate this project with Git" is checked
 
-Note: Assume there is empty github repo has been created. If not, please review this link to create a Git repo with ssh enable
+Note: Assume there is empty github repo has been created. If not, please review this [Token](#token) how-to to create a Git repo with ssh enable
 
 ![Project](images/cp4d-new-project4.png)
 
@@ -69,4 +69,14 @@ You can view the Notebook under assets/notebook folder
 
 ![Project](images/notebook-checkin.png)
 
+## Token
+
+- Log in to GitHub or GitHub Enterprise
+- Click on your user icon, and then click Settings
+- For public GitHub, click Developer settings>Personal access tokens. For GitHub Enterprise, click Personal access tokens.
+- Click Generate new token
+- Describe the purpose of the token
+- Add the repo:status, public_repo, admin:repo_hook, admin:org_hook scopes
+- Generate token, and leave the window opens
+- Important: Copy and save your token. You have access only once to the GitHub personal access token
 
