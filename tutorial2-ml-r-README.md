@@ -5,7 +5,8 @@
 You can skip this step if you already know how-to, otherwise you may review our <a href="https://github.com/acme-cp4d-poc/getting-started-with-cp4d/blob/master/README.md" target="_blank">**Getting Start with CP4D**</a> to learn the steps. 
 
 #### 2. Upload dataset from local drive
-We will use iris.csv, you may donload from <a href="https://github.com/acme-cp4d-poc/getting-started-with-cp4d/" target="_blank">**here**</a>
+We will use iris.csv, you may donload from <a href="https://github.com/acme-cp4d-poc/cp4d-ml-r/tree/master/assets/data_asset" target="_blank">**here**</a>.
+
 With project opened in Watson, on Asset tab, on right had panel, click on "local" to upload your cvs file.
 
 #### 3. Create a new notebook from Blank option
