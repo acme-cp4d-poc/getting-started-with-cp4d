@@ -1,3 +1,4 @@
+![CP4D GIF](images/cp4d-logo.png)
 # Getting Started with CP4D
 
 ### 1. Create a new CP4D Project and new Juypter Notebook
