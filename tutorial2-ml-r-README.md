@@ -2,7 +2,7 @@
 ## Run Machine Learning RScript in Watson Jupyter Notebook
 
 #### 1. Create a repo and sync with project generated in Watson Studio
-You can skip this step if you already know how-to, otherwise you may review our <a href="https://github.com/acme-cp4d-poc/getting-started-with-cp4d/blob/master/README.md" target="_blank">**Getting Start with CP4D**</a> to learn the steps. 
+You can skip this step if you already know how-to, otherwise you may review our <a href="https://github.com/acme-cp4d-poc/getting-started-with-cp4d/blob/master/tutorial1-getting-started.md" target="_blank">**Getting Start with CP4D**</a> to learn the steps. 
 
 #### 2. Upload dataset from local drive
 We will use iris.csv, you can learn about this <a href="https://en.wikipedia.org/wiki/Iris_flower_data_set" target="_blank">dataset</a>, you may donload from <a href="https://github.com/acme-cp4d-poc/cp4d-ml-r/tree/master/assets/data_asset" target="_blank">**here**</a>.
