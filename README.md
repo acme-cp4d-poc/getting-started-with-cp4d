@@ -6,4 +6,4 @@
 
 [Tutorial 3 - Run AI infuse notebook](tutorial-ai-README.md)
 
-[Tutorial 4 - Machine Learninin Python](tutorial-ml-README.md)
+[Tutorial 4 - Machine Learning with Python](tutorial-ml-README.md)
