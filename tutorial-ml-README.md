@@ -97,28 +97,30 @@ Run classification algorithm notebook and check ML implementation of regression 
 ![Project](images/tutorial4/ml-notebook3-predict.png)
 
 ## Clustering Algorithm Notebook
-#### Repeat same steps as above, create a new notebook by uploading classification algorithm notebook to the same project
-![Project](images/tutorial4/ml-notebook2-init.png)
+#### Repeat same steps as above, create a new notebook by uploading clustering algorithm notebook to the same project
+Run notebook and check ML implementations of clustering algorithm
 
-Run notebook and check ML implementation of regression algorithm
-> Dataframe
-![Project](images/tutorial4/ml-notebook2-dataframe.png)
+> Start to run clustering algorithm notebook
+![Project](images/tutorial4/ml-notebook4-run.png)
 
 > Data Preparation
-![Project](images/tutorial4/ml-notebook-transformation.png)
+![Project](images/tutorial4/ml-notebook4-data-prepare.png)
 
 > Data Plot
-![Project](images/tutorial4/ml-notebook2-plot2.png)
+![Project](images/tutorial4/ml-notebook4-scatter-plot.png)
 
-> Single Linear Regression
-![Project](images/tutorial4/ml-notebook2-linear-regression.png)
+> K-means
+![Project](images/tutorial4/ml-notebook4-k-means.png)
 
-> Multiple Linear Regression
-![Project](images/tutorial4/ml-notebook2-mul-linear.png)
+> Model Evaluation
+![Project](images/tutorial4/ml-notebook4-model-evaluation.png)
 
-> MES
-![Project](images/tutorial4/ml-notebook2-mes.png)
+> Scatter 3D
+![Project](images/tutorial4/ml-notebook4-scatter-3d.png)
 
-> Predictions
-![Project](images/tutorial4/ml-notebook2-predict.png)
+> DBSCAN
+![Project](images/tutorial4/ml-notebook4-dbscan.png)
+
+> Cluster Scatter
+![Project](images/tutorial4/ml-notebook4-cluster-scatter.png)
 
