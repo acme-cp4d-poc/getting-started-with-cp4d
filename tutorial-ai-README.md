@@ -42,8 +42,10 @@ You can download a copy from <a href="https://developer.ibm.com/patterns/infuse-
 #### 3. Create a new notebook by uploading one
 With the project onpened in Watson, click on "Add to Project", when panel opens, select "Notebook".
 ![Asset GIF](images/choose-asset-type.png)
+
 Note: Ensure select Spark with Python 3.6 or latest version as run time environment
 ![Project](images/tutorial3/ai-notebook-init.png)
+
 Upload notebook
 ![Project](images/tutorial3/ai-load-notebook-local.png)
 
@@ -69,7 +71,7 @@ You may run individual Python cell by click on SHIFT+RETURN
 ![Notebook GIF](images/tutorial3/ai-build-model.png)
 
 > Predictions
-![Notebook GIF](images/tutorial3/ai-predictionsk.png)
+![Notebook GIF](images/tutorial3/ai-predictions.png)
 
 #### 7. Click on File "Save" to save your AI notebook
 > Ensure the message "Notebook Saved" appeared
