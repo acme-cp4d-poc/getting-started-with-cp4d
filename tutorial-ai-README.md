@@ -1,5 +1,28 @@
-![CP4D GIF](images/cp4d-logo.png)
+# Summary
+
+This Cloud Pak for Data tutorial walks the use through the use of a Jupyter notebook to interact with Db2 Warehouse in Cloud Pack for Data and is heavily based on the tutorial "Infuse AI into your application" created by Anjali Shah, Rui Fan, Daniel Kikuchi, Mark Sturdevant, Published February 8, 2019
+
+For additional details see, https://developer.ibm.com/patterns/infuse-ai-into-your-application/
+
+
 ## Run AI Python Notebook with Watson Studio in CP4D
+This code pattern is built on IBM Cloud Pak for Data, an open, cloud-native information architecture for AI. 
+
+The sample data used in this code pattern provides customer demographics and trading activity for an online stock trading company. In this use case, the company would like to predict the risk of customer churn and integrate targeted incentives into their user-facing applications.
+
+<img src="images/cp4d-logo.png" alt="Logo" height="350" width="700">
+
+After completing this tutorial you should be able to
+
+- Find your way around IBM Cloud Pak for Data.
+- Load data into Db2 Warehouse.
+- Create a Watson Studio analytics project in IBM Cloud Pak for Data.
+- Add a remote data set to your project.
+- Add a Jupyter notebook to the Watson Studio
+- Visualize data using Brunel charts.
+- Build and test a machine learning model with Spark MLlib.
+- Deploy the model as a web service with IBM Cloud Pak for Data.
+- Access the model from an external application for inference (churn risk prediction).
 
 #### 1. Create a repo and sync with project generated in Watson Studio
 You can skip this step if you already know how-to, otherwise you may review our <a href="https://github.com/acme-cp4d-poc/getting-started-with-cp4d/blob/master/README.md" target="_blank">**Getting Start with CP4D**</a> to learn the steps. 
