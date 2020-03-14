@@ -28,6 +28,7 @@ Here are the basic steps for training a deep learning model with experiment buil
 
 
 This tutorial does not demonstrate distributed deep learning, or using the Watson Machine Learning hyperparameter optimization feature.
+---
 <a id='Step1'></a>
 ## Step 1: Set up data files
 Training a deep learning model using Watson Machine Learning relies on accessing training files stored 
@@ -48,6 +49,7 @@ which is a required plug-in for running experiments.
 - Create a folder for the data files under where Watson Machine Learning Accelerator is installed.
 - Copy or transfer the data files into the folder.
 
+---
 <a id='Step2'></a>
 ## Step 2: Download sample code
 Download sample TensorFlow model-building Python code from here: 
@@ -57,6 +59,7 @@ The **tf-model.zip** contains two files:
 - **convolutional_network.py** - Model-building Python code
 - **input_data.py** - A "helper" file for reading the MNIST data files
 
+---
 <a id='Step3'></a>
 ## Step 3: Train the model
 This tutorial demonstrates training the model using experiment builder in Watson Studio.
@@ -80,6 +83,7 @@ This tutorial demonstrates training the model using experiment builder in Watson
 1. Select **“1 x NVIDIA Tesla V100(1GPU)”** for the compute plan.
 1. Click **Create and run**.
 
+---
 <a id='Step4'></a>
 ## Step 4: Monitor training progress and results
 You can monitor the progress of a training run in the Training Runs tab of experiment builder.
@@ -87,6 +91,7 @@ You can monitor the progress of a training run in the Training Runs tab of exper
 When the training run is complete, click on the training definition to view details of its training results, 
 including logs and other output.
 
+---
 <a id='Step5'></a>
 ## Step 5: Deploy the trained model
 You can use your trained model to classify new images only after the model has been deployed.
@@ -97,19 +102,28 @@ A prompt is shown to navigate to your Deployment Space after promoting the model
 After navigating to the deployment space click on the model name.
 Click Deploy.
 Choose Online and enter a name for the deployment.
-Step 6: Test the deployed model
+
+---
+<a id='Step6'></a>
+## Step 6: Test the deployed model
 You can quickly test your deployed model from the deployment details page.
 
-On your local computer, download this sample payload JSON file with input data corresponding to the handwritten digits "5" and "4": MNIST_sample_payload_V4.json external link
+1. On your local computer, download this sample payload JSON file with input data corresponding to the handwritten digits "5" and "4": 
+[MNIST_sample_payload_V4.json](https://github.com/pmservice/wml-sample-models/blob/master/MNIST_sample_payload_V4.json) 
 
-In the Test area of the deployment details page in Watson Studio, paste the value of the payload field from tf-mnist-test-payload.json. Then click Predict.
+2. In the **Test area** of the deployment details page in **Watson Studio**, paste the value of the payload field from 
+**tf-mnist-test-payload.json**. Then click **Predict**.
 
+---
 Sample output:
-
+```
 {
   "values": [
     7,
     4
   ]
 }
-This output shows: the first input data was correctly classified as belonging to the class "7", and the second input data was correctly classified as belonging to the class "4".
+```
+This output shows the 
+- first input data was correctly classified as belonging to the class "7", and 
+- second input data was correctly classified as belonging to the class "4".
