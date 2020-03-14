@@ -28,6 +28,7 @@ Here are the basic steps for training a deep learning model with experiment buil
 
 
 This tutorial does not demonstrate distributed deep learning, or using the Watson Machine Learning hyperparameter optimization feature.
+
 ---
 <a id='Step1'></a>
 ## Step 1: Set up data files
@@ -96,12 +97,16 @@ including logs and other output.
 ## Step 5: Deploy the trained model
 You can use your trained model to classify new images only after the model has been deployed.
 
-In the Training Runs tab of experiment builder, select Save model from the action menu. Give the model a name and click Save. This stores the model in the Watson Machine Learning repository and saves it to the project.
-In the project’s Asset tab you can now see the saved model. To deploy the model, you must first promote it to a deployment space. Choose Promote from the action menu for the model. You will be prompted to associate a deployment space with your project if you haven’t done so yet.
-A prompt is shown to navigate to your Deployment Space after promoting the model. Alternatively the Deployment Space can be accessed via the Overview tab in the project under the Associated deployment space heading.
-After navigating to the deployment space click on the model name.
-Click Deploy.
-Choose Online and enter a name for the deployment.
+1. In the Training Runs tab of experiment builder, select **Save model** from the action menu. 
+   Give the model a name and click **Save**. This stores the model in the Watson Machine Learning repository and saves it to the project.
+2. In the project’s **Asset tab** you can now see the saved model. 
+   - To deploy the model, you must first promote it to a deployment space. 
+   - Choose **Promote** from the action menu for the model. 
+   - You will be prompted to associate a deployment space with your project if you haven’t done so yet.
+3. A prompt is shown to navigate to your Deployment Space after promoting the model. Alternatively the Deployment Space can be accessed via the Overview tab in the project under the Associated deployment space heading.
+4. After navigating to the deployment space click on the model name.
+5. Click **Deploy**.
+6. Choose **Online** and enter a name for the deployment.
 
 ---
 <a id='Step6'></a>
@@ -115,7 +120,8 @@ You can quickly test your deployed model from the deployment details page.
 **tf-mnist-test-payload.json**. Then click **Predict**.
 
 ---
-Sample output:
+## Sample output:
+
 ```
 {
   "values": [
@@ -124,6 +130,7 @@ Sample output:
   ]
 }
 ```
+
 This output shows the 
 - first input data was correctly classified as belonging to the class "7", and 
 - second input data was correctly classified as belonging to the class "4".
