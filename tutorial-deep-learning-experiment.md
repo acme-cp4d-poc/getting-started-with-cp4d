@@ -1,7 +1,7 @@
 
 # Deep learning experiment tutorial: 
 
-## Build a TensorFlow model using (Watson Machine Learning) to recognize handwritten.
+## Build a TensorFlow model using (Watson Machine Learning) to recognize handwritten numbers.
 
 This tutorial guides you through using the MNIST computer vision data set to train a deep learning TensorFlow model 
 to recognize handwritten digits.  In this tutorial, you will 
