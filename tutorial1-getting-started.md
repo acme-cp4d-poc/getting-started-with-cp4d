@@ -1,5 +1,10 @@
-![CP4D GIF](images/cp4d-logo.png)
 # Getting Started with CP4D
+
+## Summary
+TBD
+
+![CP4D GIF](images/cp4d-logo.png)
+
 
 ### 1. Create a new CP4D Project and new Juypter Notebook
 > Login in Cloud Pak 4 Data, and launch Dashboard
