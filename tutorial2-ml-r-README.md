@@ -1,5 +1,7 @@
-![CP4D GIF](images/cp4d-logo.png)
 ## Run Machine Learning RScript in Watson Jupyter Notebook
+
+![CP4D GIF](images/cp4d-logo.png)
+
 
 #### 1. Create a repo and sync with project generated in Watson Studio
 You can skip this step if you already know how-to, otherwise you may review our <a href="https://github.com/acme-cp4d-poc/getting-started-with-cp4d/blob/master/tutorial1-getting-started.md" target="_blank">**Getting Start with CP4D**</a> to learn the steps. 
