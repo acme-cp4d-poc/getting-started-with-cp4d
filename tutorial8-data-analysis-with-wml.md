@@ -1,4 +1,4 @@
-# Getting Started with CP4D
+# Tutorial 8
 This work is based on
 https://developer.ibm.com/patterns/data-analysis-model-building-and-deploying-with-wml/
 
