@@ -15,9 +15,8 @@ The sample data used in this code pattern provides customer demographics and tra
 After completing this tutorial you should be able to
 
 - Find your way around IBM Cloud Pak for Data.
-- Load data into Db2 Warehouse.
 - Create a Watson Studio analytics project in IBM Cloud Pak for Data.
-- Add a remote data set to your project.
+- Add a local data set to your project.
 - Add a Jupyter notebook to the Watson Studio
 - Visualize data using Brunel charts.
 - Build and test a machine learning model with Spark MLlib.
