@@ -1,7 +1,7 @@
-# Tutorial 1 - 
+# Tutorial 1 - Getting Started with CP4D
 
 ## Summary
-TBD
+This tutorial provides steps for end to end setup from initializing a project on Watson studio in Cloud Pak 4 Data and sync up with git repository. 
 
 ![CP4D GIF](images/cp4d-logo.png)
 
