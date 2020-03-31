@@ -1,6 +1,6 @@
 # Summary
 
-This Cloud Pak for Data tutorial walks the use through the use of a Jupyter notebook to interact with Db2 Warehouse in Cloud Pack for Data and is heavily based on the tutorial "Infuse AI into your application" created by Anjali Shah, Rui Fan, Daniel Kikuchi, Mark Sturdevant, Published February 8, 2019
+This Cloud Pak for Data tutorial walks the use through the use of a Jupyter notebook to interact local dataset in Cloud Pack for Data and is heavily based on the tutorial "Infuse AI into your application" created by Anjali Shah, Rui Fan, Daniel Kikuchi, Mark Sturdevant, Published February 8, 2019
 
 For additional details see, https://developer.ibm.com/patterns/infuse-ai-into-your-application/
 
